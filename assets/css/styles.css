@@ -10745,9 +10745,7 @@ img {
 }
 
 /**
-
 * Define el tamaño del diseño a 1280px
-
 */
 body {
   width: 1280px;
@@ -10755,18 +10753,14 @@ body {
 }
 
 /**
-
 * Cambia el flujo del HTML pudiendo flotar los elementos a la izquierda
-
 */
 .float {
   float: left;
 }
 
 /**
-
 * Limpia el flujo del HTML luego de usar floats
-
 */
 .clear {
   clear: both;
@@ -10784,6 +10778,7 @@ body {
   position: relative;
   /* height: 18vh; */
   height: 100px;
+  width: 100%;
   background-color: white;
 }
 .navigation__container {
@@ -10795,11 +10790,12 @@ body {
 }
 .navigation__log {
   position: absolute;
-  width: 220px;
+  width: 230px;
   height: 100%;
   text-align: center;
-  padding-left: 2em;
-  padding-top: 1.7em;
+  padding-left: 2.3em;
+  padding-top: 1.3em;
+  margin-left: 1em;
 }
 .navigation__list {
   margin: 0;
@@ -10815,7 +10811,7 @@ body {
 }
 .navigation__item a {
   display: block;
-  padding: 1.5em;
+  padding: 1em;
   text-align: left;
   color: black;
 }

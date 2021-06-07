@@ -4,7 +4,9 @@
   position: relative;
   /* height: 18vh; */
   height: 100px;
+  width: 100%;
   background-color: white;
+ 
 
   &__container {
     display: inline-block;
@@ -16,11 +18,12 @@
 
   &__log {
     position: absolute;
-    width: 220px;
+    width: 230px;
     height: 100%;
     text-align: center;
-    padding-left: 2em;
-    padding-top: 1.7em;
+    padding-left: 2.3em;
+    padding-top: 1.3em;
+    margin-left: 1em;
   }
 
   &__list {
@@ -29,6 +32,7 @@
     list-style-type: none;
     float: right;
     list-style-type: none;
+   
   }
 
   &__item {
@@ -38,7 +42,7 @@
     
     & a {
       display: block;
-      padding: 1.5em;
+      padding: 1em;
       text-align: left;
       color: black;  
   
