@@ -1,73 +1,170 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tienda XDA</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
-   <!-- css bootstrap -->
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-  
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  
-  <!-- Main Styles -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>GIGEO App</title>
 </head>
 
 <body>
-  
 
-    
-    <!-- Navigation -->
-    <nav class="navigation row"> 
-      
-      <div class="navigation__log">
-        <img class="navigation_img" src="/assets/img/logo.jpg" alt="">
-      </div>
-      
-      <div class="collapsible"> 
-        
-        <input type="checkbox" id="menu">
-        <label for="menu"><i class="fas fa-bars"></i></label> 
-        
-        <div class="navigation__container"> 
-          
-          <ul class="navigation__list"> 
-            <li class="navigation__item"><a href="#"><i class="fas fa-search"></i></i></a></li> 
-            <li class="navigation__item"><a href="#"><i class="fas fa-video"></i></a></li> 
-            <li class="navigation__item"><a href="#"><i class="fas fa-plus"></i></i></a></li>
-            <li class="navigation__item"><a href="#"><i class="far fa-bell"></i></i></a></li>
-            <li class="navigation__item"><a href="#"><i class="fas fa-bars"></i></i></a></li>
-          </ul> 
-        
-        </div> 
-      </div> 
-    </nav> 
-    
+    <header>
 
-    <!-- Header -->
-  <header class="header">
-  
- 
-    
-  <!-- scripts -->
+         <!-- Navigation -->
+        <nav class="navigation row">
+
+            <div class="navigation__log">
+                <img class="navigation_img" src="/assets/img/logo.jpg" alt="">
+            </div>
+
+            <div class="collapsible">
+                <input type="checkbox" id="menu">
+                <label for="menu"><i class="fas fa-bars"></i></label>
+
+                <div class="navigation__container">
+                    <ul class="navigation__list">
+                        <li class="navigation__item"><a href="#"><i class="fas fa-search"></i></i></a></li>
+                        <li class="navigation__item"><a href="#"><i class="fas fa-video"></i></a></li>
+                        <li class="navigation__item"><a href="#"><i class="fas fa-plus"></i></i></a></li>
+                        <li class="navigation__item"><a href="#"><i class="far fa-bell"></i></i></a></li>
+                        <li class="navigation__item last"><a href="#"><i class="fas fa-bars"></i></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Banner -->
+        <section class="banner">
+        </section>
         
-    <!--Popper JS 1.14.3-->
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script> 
-    
-    <!--Bootstrap JS 4.2.1-->
-    
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </header>
+
+    <!-- profile section -->
+    <section class="row section">
+
+        <section class="section__avatar col-sm-12 col-md-6 col-lg-6">
+
+            <img class="section__avatar__img" src="./assets/img/profile-image.png" alt="avatar">
+
+            <div class="section__avatar__text">
+                <h2 class="section__avatar__name"> Yuki Mukami </h2>
+                <h3 class="section__avatar__followers"> 30.000 seguidores</h3>
+            </div>
+        </section>
+
+        <section class="section__buttons col-sm-12 col-md-6 col-lg-6 d-none d-sm-none d-md-block ">
+            
+            <div class="section__buttons__box d-flex justify-content-end">
+                <button class="section__buttons__one"> Mensaje </button>
+                <button class="section__buttons__two"> Seguir </button>
+            
+            </div>
+        </section>
+        
+    </section>
+
+    <section>
+        <div class="container-lg videos">
+            <h2 class="videos__titulo">Videos Populares</h2>
+
+            <div class="videos__grid row">
+
+                <div class="col-md-3 col-sm-6 col-12 videos__card">
+                    <div class="videos__image">
+                        <img src="./assets/img/image-1.png" alt="image-1">
+                    </div>
+                    <div class="videos__textos">
+                        <h3>Después de la vela - Yuki Mukami</h3>
+                        <p>16k vistas - 1 semana atrás</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-12 videos__card">
+                    <div class="videos__image">
+                        <img src="./assets/img/image-2.png" alt="image-2">
+                    </div>
+                    <div class="videos__textos">
+                        <h3>Far Away - Yuki Mukami</h3>
+                        <p>100k vistas - 1 mes atrás</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-12 videos__card">
+                    <div class="videos__image">
+                        <img src="./assets/img/image-3.png" alt="image-3">
+                    </div>
+                    <div class="videos__textos">
+                        <h3>City - Yuki Mukami</h3>
+                        <p>20k vistas - 1 mes atrás</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-12 videos__card">
+                    <div class="videos__image">
+                        <img src="./assets/img/image-4.png" alt="image-4">
+                    </div>
+                    <div class="videos__textos">
+                        <h3>A Yuki Tale - Yuki Mukami</h3>
+                        <p>1m visitas - 1 año atrás</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-12 videos__card">
+                    <div class="videos__image mb-2">
+                        <img src="./assets/img/image-5.png" alt="image-5">
+                    </div>
+                    <div class="videos__textos">
+                        <h3>Mapocho - Yuki Mukami</h3>
+                        <p>100k vistas - 1 mes atrás</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-12 videos__card">
+                    <div class="videos__image">
+                        <img src="./assets/img/image-6.png" alt="image-6">
+                    </div>
+                    <div class="videos__textos">
+                        <h3>Luky Days - Yuki Mukami</h3>
+                        <p>40k vistas - 3 meses atrás</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-12 videos__card">
+                    <div class="videos__image">
+                        <img src="./assets/img/image-7.png" alt="image-7">
+                    </div>
+                    <div class="videos__textos">
+                        <h3>30 days in My House</h3>
+                        <p>10k vistas - 4 meses atrás</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-12 videos__card">
+                    <div class="videos__image">
+                        <img src="./assets/img/image-8.png" alt="image-8">
+                    </div>
+                    <div class="videos__textos">
+                        <h3>Santiago - Yuki Mukami</h3>
+                        <p>40k vistas - 3 mese atrás</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 </body>
+
 </html>
-    
-    
-  
-  
