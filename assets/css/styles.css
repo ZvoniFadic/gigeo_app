@@ -10783,7 +10783,7 @@ body {
 .navigation {
   position: relative;
   /* height: 18vh; */
-  height: 120px;
+  height: 100px;
   background-color: white;
 }
 .navigation__container {
@@ -10845,14 +10845,14 @@ input:checked ~ .navigation__container {
 @media (min-width: 768px) {
   .navigation {
     width: 100%;
-    height: 120px;
+    height: 100px;
     /* height: 18vh; */
   }
   .navigation__log {
     height: 100%;
     width: 280px;
     padding-left: 4em;
-    padding-top: 1.3em;
+    padding-top: 0.8em;
     text-align: center;
   }
   .navigation__container {
@@ -10871,6 +10871,8 @@ input:checked ~ .navigation__container {
   }
   .navigation__item a {
     font-size: 1.3em;
+    padding: 0.9em;
+    padding-top: 1.1em;
   }
 
   .collapsible label {
